@@ -287,15 +287,15 @@ ul.nav li ul.dropdown-menu {
 }
 
 .default {
-	background:#010101;
-	border-bottom:1px solid #222;
+	background:#6d0000;
+	/* border-bottom:1px solid #222; */
 }
 
 
 
 .fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#6d0000;
 	border:none;
 	top:0;
 	left: 0;
@@ -313,15 +313,14 @@ nav select {
 2. Section: Intro
 ======================================== */
 
-
-
 section#intro {
-	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	/* background: #6d0000 url(../img/bg/FallCon2018\ Final.png) 50% 0 no-repeat; */
+	background: #6d0000;
 	position:relative;
 	width:100%;
 	height:auto;
 	margin:0;
-	padding:240px 0 120px;
+	/* padding:240px 0 120px; */
 }
 
 @media (min-width: 1024px) {
@@ -330,9 +329,9 @@ section#intro {
 	}
 }
 
-section#intro.inner {
+/* section#intro.inner {
 	padding:140px 0 30px;
-}
+} */
 
 section#intro.inner h2 strong  {
 	color:#fff;
@@ -340,7 +339,6 @@ section#intro.inner h2 strong  {
 section#intro.inner h2  {
 	font-size:32px;
 }
-
 
 section#intro  {
 	text-align:center;
@@ -356,6 +354,7 @@ section#intro h1  {
 	font-size:64px;
 	font-weight:700;
 }
+
 section#intro h2  {
 	color:#ddd;
 	font-size:24px;
@@ -1214,7 +1213,7 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+	background:#6d0000;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1234,14 +1233,14 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+	background:#6d0000;
 	width: 100%;
 	padding-right:20px;
 	}
 
 	.fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#6d0000;
 	top:0;
 	left: 0;
 	width: 100%;
