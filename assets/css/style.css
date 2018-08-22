@@ -32,7 +32,15 @@ body {
   background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height:1.1em;
+	color: #ffffff;
+	font-weight:300;
+	margin-bottom:10px;
+}
+
+h1, h3, h4, h5, h6 {
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height:1.1em;
 	color: #3a3a3a;
@@ -139,6 +147,24 @@ blockquote {
 
 .clear { clear:both; }
 
+
+.subtitle {
+	width:100%;
+}
+
+.subtitle h2{
+	text-transform:uppercase;
+	padding:0;
+	margin:20px 0 30px 0;
+	font-size:40px;
+	font-weight:700;
+	text-align:center;
+	text-shadow: 0 1px 0 #ffffff;
+	display:inline;
+}
+
+
+
 /* ==== heading ==== */
 
 .heading {
@@ -155,7 +181,6 @@ blockquote {
 	text-align:center;
 	text-shadow: 0 1px 0 #ffffff;
 	border-bottom:3px double #333;
-	width:auto;
 	display:inline;
 }
 
@@ -163,22 +188,19 @@ section.dark .heading h3{
 	color:#fff;
 	text-shadow: 0 1px 0 #3a3a3a;
 	border-bottom:3px double #eee;
-	width:auto;
 	display:inline;
-
-
 }
 
 /* sub heading */
 
 .sub-heading {
-	text-align:center;
+	text-align:left;
 	margin:20px 0 20px 0;
 }
 
 .sub-heading p {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 20px;
+	font-size: 40px;
 	line-height:1.6em;
 	color: #3a3a3a;
 	font-weight:200;
