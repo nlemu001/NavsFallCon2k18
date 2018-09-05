@@ -768,7 +768,7 @@ section#services {
 	margin:0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 2048px) {
 	section#services {
 		background-attachment: fixed;
 	}
