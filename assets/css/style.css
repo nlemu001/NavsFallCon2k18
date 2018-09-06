@@ -762,7 +762,8 @@ ul.the-icons {
 
 /* ================= services ============================ */
 section#services {
-	background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	/* background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat; */
+	background: #6d0000;
 	width:100%;
 	height:auto;
 	margin:0;
