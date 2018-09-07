@@ -229,7 +229,7 @@ header .logo {
 }
 
 .navbar {
-	padding:0 0 20px;
+	/* padding:0 0 20px; */
 	margin:0;
 }
 
@@ -287,8 +287,6 @@ header .logo {
 	padding-right:5px;
 }
 
-
-
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
@@ -342,7 +340,7 @@ section#intro {
 	width:100%;
 	height:auto;
 	margin:0;
-	/* padding:240px 0 120px; */
+	padding:240px 0 120px;
 }
 
 @media (min-width: 1024px) {
