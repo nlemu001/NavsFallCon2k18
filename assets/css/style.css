@@ -98,7 +98,7 @@ h4 small {
 	opacity:1;
 }
 section {
-	padding:120px 0 40px 0;
+	padding:60px 0 40px 0;
 }
 
 iframe, embed, object {
@@ -219,7 +219,7 @@ header{
 
 header .logo {
 	float:left;
-	margin:30px 0 0;
+	margin:15px 0 0;
 }
 
 /* --- menu --- */
@@ -1344,7 +1344,7 @@ img.pull-left{
 
 
 	.section {
-		padding:180px 0 40px 0;
+		padding:40px 0 40px 0;
 	}
 
 	ul.filter li {
