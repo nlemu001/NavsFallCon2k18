@@ -970,6 +970,41 @@ ul.project-detail li label{
 }
 
 
+/* ================= recordings ============================ */
+section#recordings {
+	/* background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat; */
+	background: #6d0000;
+	width:100%;
+	height:auto;
+	margin:0;
+}
+
+@media (min-width: 2048px) {
+	section#recordings {
+		background-attachment: fixed;
+	}
+}
+
+#recordings .headline h3 {
+	color:#fff;
+}
+
+#recordings .section-intro p {
+	color:#f8f8f8;
+}
+
+.service-intro{
+	width:100%;
+	margin:30px 0 30px 0;
+	padding-top:20px;
+	text-align:center;
+}
+
+.service-intro h3{
+	font-size:64px;
+	margin-bottom:0;
+}
+
 
 /* ============== contact ==================== */
 ul.contact-list{
