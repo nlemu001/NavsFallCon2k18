@@ -306,8 +306,9 @@ ul.nav li ul.dropdown-menu {
 	margin-top:20px;
 }
 
+/* Header color */
 .default {
-	background:#101010;
+	background:#353439;
 	/* border-bottom:1px solid #222; */
 }
 
@@ -315,7 +316,7 @@ ul.nav li ul.dropdown-menu {
 
 .fixed {
 	position: fixed;
-	background:#101010;
+	background:#353439;
 	border:none;
 	top:0;
 	left: 0;
@@ -333,6 +334,7 @@ nav select {
 2. Section: Intro
 ======================================== */
 
+/* Intro background color */
 section#intro {
 	/* background: #6d0000 url(../img/bg/FallCon2018\ Final.png) 50% 0 no-repeat; */
 	background: #101010;
@@ -340,7 +342,7 @@ section#intro {
 	width:100%;
 	height:auto;
 	margin:0;
-	padding:240px 0 120px;
+	padding:120px 0 60px;
 }
 
 @media (min-width: 1024px) {
@@ -761,7 +763,7 @@ ul.the-icons {
 /* ================= services ============================ */
 section#services {
 	/* background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat; */
-	background: #101010;
+	background: #353439;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -973,7 +975,7 @@ ul.project-detail li label{
 /* ================= recordings ============================ */
 section#recordings {
 	/* background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat; */
-	background: #101010;
+	background: #353439;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -1269,7 +1271,7 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#101010;
+	background:#353439;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1289,14 +1291,14 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#101010;
+	background:#353439;
 	width: 100%;
 	padding-right:20px;
 	}
 
 	.fixed {
 	position: fixed;
-	background:#101010;
+	background:#353439;
 	top:0;
 	left: 0;
 	width: 100%;
