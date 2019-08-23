@@ -71,7 +71,6 @@ function appendWorkshop(wsJson, wsCnt, isMorningWs) {
                         '<div id="' + section + ws + '" class="accordion-body collapse' + (ws ? '' : ' in') + '">' +
                             '<div class="accordion-inner">' + speaker + '<br>' + description + '</div>' +
                         '</div>';
-    console.log(workshopEntry);
 
     var wsSection = document.getElementById(section);
     var newWorkshop = document.createElement('div');
