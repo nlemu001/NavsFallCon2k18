@@ -58,6 +58,9 @@ var workshops =
     ]
 };
 
+// Add configured workshops listed above to the accordion moduled in index.html.
+// The firt entry has some specific-set values. The wsCnt value is used to determine which is first.
+
 function appendWorkshop(wsJson, wsCnt, isMorningWs) {
     var title = wsJson.title;
     var speaker = wsJson.speaker;
@@ -65,10 +68,10 @@ function appendWorkshop(wsJson, wsCnt, isMorningWs) {
     var section = isMorningWs ? morningWorkshops : afternoonWorkshops;
 
     var workshopEntry =  '<div class="accordion-heading">' +
-                            '<a class="accordion-toggle' + (ws ? '' : ' active') + '" data-toggle="collapse" data-parent="#' + section + '" href="#' + section + ws + '">' +
-                                '<i class="icon-' + (ws ? 'plus' : 'minus') + '"></i>' + title + '</a>' +
+                            '<a class="accordion-toggle' + (wsCnt ? '' : ' active') + '" data-toggle="collapse" data-parent="#' + section + '" href="#' + section + wsCnt + '">' +
+                                '<i class="icon-' + (wsCnt ? 'plus' : 'minus') + '"></i>' + title + '</a>' +
                         '</div>' +
-                        '<div id="' + section + ws + '" class="accordion-body collapse' + (ws ? '' : ' in') + '">' +
+                        '<div id="' + section + wsCnt + '" class="accordion-body collapse' + (wsCnt ? '' : ' in') + '">' +
                             '<div class="accordion-inner">' + speaker + '<br>' + description + '</div>' +
                         '</div>';
 

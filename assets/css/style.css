@@ -973,7 +973,7 @@ ul.project-detail li label{
 
 
 /* ================= recordings ============================ */
-section#recordings {
+section#tshirt {
 	/* background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat; */
 	background: #353439;
 	width:100%;
@@ -982,16 +982,16 @@ section#recordings {
 }
 
 @media (min-width: 2048px) {
-	section#recordings {
+	section#tshirt {
 		background-attachment: fixed;
 	}
 }
 
-#recordings .headline h3 {
+#tshirt .headline h3 {
 	color:#fff;
 }
 
-#recordings .section-intro p {
+#tshirt .section-intro p {
 	color:#f8f8f8;
 }
 
