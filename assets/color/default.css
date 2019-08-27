@@ -1,22 +1,27 @@
 ::-moz-selection {
-  background: #6d0000;
+  background: #fff;
 }
+
+/* Text Highlighting */
 ::selection {
-  background: #6d0000;
+  background: #919d9d;
 }
 
+
+/* URL Color */
 a {
-  color: #6d0000;
+  color: #9e0000;
 }
 
+/* URL Hover Color */
 a:hover {
 	color: #6d0000;
 }
 
-/* --- button theme --- */
+/* --- Register button theme --- */
 .btn-theme {
-  background: #6d0000;
-  *background-color: #6d0000;
+  background: #000;
+  *background-color: #919d9d;
 }
 
 .btn-theme:hover,
@@ -24,8 +29,8 @@ a:hover {
 .btn-theme.active,
 .btn-theme.disabled,
 .btn-theme[disabled] {
-  background: #6d0000;
-  *background: #6d0000;
+  background: #919d9d;
+  *background: #919d9d;
 }
 
 /* --- slogan --- */
@@ -47,23 +52,33 @@ a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #6d0000;
+    background-color: #000;
 }
+
+/* Lower right-hand navigation square color */
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #6d0000;
+    background-color: #3a3a3a;
 }
 
-
-
-
+/* Nav bar text hover color */
 .navbar .nav > li > a:hover {
   color: #919d9d;
 }
 
-
-ul.nav li.current {
-  background: #6d0000;
+/* Selected Nav bar button color */
+ul.nav li.current > a,
+ul.nav li.current > a:focus {
+  background: #ededed;
+  color: #000;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
@@ -112,7 +127,7 @@ ul.contact-list li textarea.form_textarea:focus  {
 	color: #6d0000;
 }
 .accordion-heading .active{
-	color: #6d0000;
+	color: #3a3a3a;
 }
 
 .accordion-inner {

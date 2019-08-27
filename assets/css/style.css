@@ -133,10 +133,6 @@ blockquote {
   border-left: 10px solid #000;
 }
 
-.container{
-	padding: 0 20px 0 20px;
-}
-
 .row{
 	margin-bottom:40px;
 }
@@ -200,7 +196,7 @@ section.dark .heading h3{
 
 .sub-heading p {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	line-height:1.6em;
 	color: #3a3a3a;
 	font-weight:200;
@@ -229,13 +225,12 @@ header .logo {
 }
 
 .navbar {
-	/* padding:0 0 20px; */
+	padding:0 0 0;
 	margin:0;
 }
 
 .navbar .nav {
   margin: 0 0 0 0;
-
 }
 
 .navbar .nav > li > a {
@@ -264,15 +259,9 @@ header .logo {
 	transition: all 0.2s ease-in-out;
 }
 
-.navbar .nav > .current {
-  color:#fff;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
-}
-
-.navbar .nav > .current a:focus, .navbar .nav > .current a:hover  {
-  color:#fff;
+.navbar .nav > .current a:focus,
+.navbar .nav > .current a:hover  {
+  color:#000;
 }
 
 .navbar .nav li.dropdown > a:hover .caret {
@@ -1264,7 +1253,6 @@ img.pull-left{
 		width:100%;
 	}
 	#topnav .navbar-inner .container .logo {
-    padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -1309,10 +1297,8 @@ img.pull-left{
 	}
 
 	#topnav .navbar-inner .container .logo {
-    padding-left: 20px;
     padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+	margin-right: 20px;
 	}
 
 	div nav ul {
@@ -1325,7 +1311,7 @@ img.pull-left{
       display: block;
 	  width:50%;
 	  float:right;
-	  margin-bottom:20px;
+	  margin-bottom:5px;
 	  color:#111;
 	  margin-top:20px;
 	  margin-right:40px;
@@ -1359,13 +1345,10 @@ img.pull-left{
 
 
 @media (max-width: 480px) {
-
-
     nav select {
-      display: inline-block;
-	  width:85%;
+	  display: inline-block;
+	  width:80%;
 	  float:none;
-	  margin:20px;
 	  color:#111;
 	  line-height:30px;
   -webkit-border-radius: 4px;
@@ -1377,8 +1360,6 @@ img.pull-left{
 	section#intro{
 		padding:180px 0 20px;
 	}
-
-
 
 	.section {
 		padding:40px 0 40px 0;
