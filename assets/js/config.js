@@ -53,7 +53,7 @@ var workshops =
         {
             "title": "Understanding the Old Testament",
             "speaker": "Jonathan Fitzgerald",
-            "description": "TBD"
+            "description": "\“What role does the Old Testament play in our faith?\”  \“Do we even need it now that we have Jesus?\”  \“Do I even want to relate to the God of the OT?\” (All of these are common thoughts) In our time together we will discuss the contents of the Old Testament and come to a better understanding of the foundational role it has in Christianity. We will also see that the God we meet in the person of Jesus is the same God as in the Old Testament."
         }
     ]
 };
