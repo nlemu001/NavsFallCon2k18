@@ -1400,7 +1400,7 @@ img.pull-left{
 		font-size:14px;
 	}
 
-	nav select  a {
+	nav select a {
 		line-height:1.5em;
 	}
 
@@ -1417,10 +1417,13 @@ img.pull-left{
 		background: #353439;
 		padding:20px 0 30px;
 	}
-	
 
 	.section {
 		margin: 0 5px 0 5px;
 		padding:20px 0 20px 0;
+	}
+
+	.bio {
+		margin: 0 5px 5px 5px;
 	}
 }
