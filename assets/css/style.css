@@ -331,7 +331,7 @@ ul.nav li ul.dropdown-menu {
 /* Header color */
 .default {
 	background:#353439;
-	/* border-bottom:1px solid #222; */
+	border-bottom:1px solid #222;
 }
 
 
@@ -358,7 +358,6 @@ nav select {
 
 /* Intro background color */
 section#intro {
-	/* background: #6d0000 url(../img/bg/FallCon2018\ Final.png) 50% 0 no-repeat; */
 	background: #101010;
 	position:relative;
 	width:100%;
@@ -378,7 +377,7 @@ section#intro.inner {
 }
 
 section#intro.inner h2 strong  {
-	color:#3a3a3a;
+	color:#fff;
 }
 section#intro.inner h2  {
 	font-size:32px;
@@ -400,7 +399,7 @@ section#intro h1  {
 }
 
 section#intro h2  {
-	color:#3a3a3a;
+	color:#fff;
 	font-size:30px;
 }
 
@@ -1405,9 +1404,20 @@ img.pull-left{
 		line-height:1.5em;
 	}
 
-	section#intro{
-		padding:60px 0 20px;
+	section#intro {
+		background: #101010;
+		position:relative;
+		width:100%;
+		height:auto;
+		margin:0;
+		padding:20px 0 60px;
 	}
+
+	section#intro.inner {
+		background: #353439;
+		padding:20px 0 30px;
+	}
+	
 
 	.section {
 		margin: 0 5px 0 5px;
