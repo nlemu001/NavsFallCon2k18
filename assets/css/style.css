@@ -35,7 +35,7 @@ body {
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height:1.1em;
-	color: #ffffff;
+	color: #3a3a3a;
 	font-weight:300;
 	margin-bottom:10px;
 }
@@ -373,12 +373,12 @@ section#intro {
 	}
 }
 
-/* section#intro.inner {
+section#intro.inner {
 	padding:140px 0 30px;
-} */
+}
 
 section#intro.inner h2 strong  {
-	color:#fff;
+	color:#3a3a3a;
 }
 section#intro.inner h2  {
 	font-size:32px;
@@ -400,8 +400,8 @@ section#intro h1  {
 }
 
 section#intro h2  {
-	color:#ddd;
-	font-size:24px;
+	color:#3a3a3a;
+	font-size:30px;
 }
 
 /* === slogan === */
@@ -436,6 +436,12 @@ section#intro p  {
 ======================================== */
 .roles {
 	text-align:center;
+}
+
+section#about h2  {
+	color:#3a3a3a;
+	font-size:34px;
+	padding:10px;
 }
 
 ul.social-profile {
@@ -1300,16 +1306,8 @@ img.pull-left{
 
 }
 
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
 
-	.navbar-inner {
-		width:100%;
-	}
-	.navbar-inner .container {
-	width:100%;
-    padding-left: 20px;
-    padding-right: 20px;
-	}
 	.default {
 	position: fixed;
 	background:#353439;
@@ -1330,8 +1328,10 @@ img.pull-left{
 	}
 
 	#topnav .navbar-inner .container .logo {
+	width:100%;
     padding-right: 20px;
 	margin-right: 20px;
+	text-align:center;
 	}
 
 	div nav ul {
@@ -1378,31 +1378,39 @@ img.pull-left{
 
 
 @media (max-width: 480px) {
-    nav select {
-	  display: inline-block;
-	  width:80%;
-	  float:none;
-	  color:#111;
-	  line-height:30px;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+	#topnav .navbar-inner .container .logo {
+		width:100%;
+		text-align:center;
+	}
+
+	div nav ul li {
+		display:none;
+	}
+
+	nav select {
+		display: block;
+		width:70%;
+		margin:0 auto;
+		margin-bottom:5px;
+		color:#111;
+		margin-top:20px;
+		line-height:30px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
 		font-size:14px;
 	}
 
+	nav select  a {
+		line-height:1.5em;
+	}
+
 	section#intro{
-		padding:180px 0 20px;
+		padding:60px 0 20px;
 	}
 
 	.section {
-		padding:40px 0 40px 0;
-	}
-
-	ul.filter li {
-		margin-bottom:10px;
-	}
-
-	.tweet span {
-		line-height:1.5em;
+		margin: 0 5px 0 5px;
+		padding:20px 0 20px 0;
 	}
 }
