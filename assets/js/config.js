@@ -9,11 +9,6 @@ var workshops =
             "description": "We will explore together the why, how and what now of knowing and following Christ."
         },
         {
-            "title": "Healthy Communication / Community / Fellowship",
-            "speaker": "Kyu Ho Lee",
-            "description": "TBD"
-        },
-        {
             "title": "Living out your faith in a secular world",
             "speaker": "Chris Ballesteros",
             "description": "So you are trying to live out your faith on a college campus, but you are surrounded by parties, casual hook ups, and a whole bunch of other influences. Philippians 1:27 says “let your manner of life be worthy of the gospel of Christ”. So how the heck do we do that when we live in the environment we do? In this workshop we will be looking at the realities of the world we live in, and how we can not only navigate through the world, but how we can live in a way that honors both ourselves and God."
