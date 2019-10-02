@@ -22,7 +22,12 @@ var workshops =
             "title": "Discipleship Essentials: One Beggar Showing Another Where to Find Breadcrumbs",
             "speaker": "Alicia Garcia",
             "description": "Discipleship can seem scaring when at the core we are sharing what we have learned and experienced from God with others.  Come spend time together growing a heart for the vision and a few practicals to make disciples as you make Him known."
-        }
+        },
+	{
+	    "title": "Trials / Community",
+	    "speaker": "Tim Chou",
+	    "description": " We all go through hard things, even Christians. But what is the purpose behind trials? And why does God want us to go through it with community? James 1:2-4"
+	}
     ],
     "afternoonWorkshops": [
         {
